@@ -2,22 +2,23 @@
 
 Repository created following this [Udemy Course](https://www.udemy.com/course/react-redux/) to practice the following basic React concepts:
 
-- TODO: Include concepts
+- React Event system.
+- State handling.
+- Loop over lists to show components.
+- Styling some components.
 
 ## Application
 
-- TODO: Include description.
+Application has a button to add a random animal to the screen ( from a fix pool ). Each animal will have a small heart that you can click to make it bigger, kind of simulating a 'likes' indicator.
 
-Application just displays some fix information about Personal Digital Assistants. This information is contained in cards, using the Bulma CSS framework.
-
-![Screenshot](utils/PDA_Dashboard.png)
+![Screenshot](src/utils/Animal_Liker.png)
 
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/pedrolopezbiedma/React_PDA_Dashboard.git
+  git clone https://github.com/pedrolopezbiedma/React_Animal_Liker.git
 ```
 
 Install dependencies
