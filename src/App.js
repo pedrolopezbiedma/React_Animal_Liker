@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+import './App.css'
 import AnimalShow from "./components/AnimalShow";
 
 const animalPool = ['dog', 'cat', 'bird', 'cow', 'gator', 'horse'];
@@ -16,14 +17,15 @@ const App = () => {
     }
 
     return (
-        <div>
-            <h1>This is the App</h1>
+        <div className="app">
             <button onClick={handleClick}>Create an Animal</button>
+            <div className="animal-list">
             {
                 animals.map((animal, index) => 
                     <AnimalShow key={index} animal={ animal } />
                 )
             }
+            </div>
         </div>
     )
 }
